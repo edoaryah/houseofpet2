@@ -27,6 +27,10 @@ Route::get('/testnavbar', function () {
     return view('layouts.navbar');
 });
 
+Route::get('/about', function () {
+    return view('about');
+});
+
 // Route::get('/sebelumcheckout', [OrderController::class, 'index'])->middleware('auth');
 // Route::post('/order', [OrderController::class, 'order'])->middleware('auth');
 // Route::get('/invoice/{id}', [OrderController::class, 'invoice'])->middleware('auth');

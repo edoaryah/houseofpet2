@@ -30,6 +30,7 @@
             <li class='buttonin'><a href="/sebelumcheckout" class='navfont'>Service</a></li>
             <li class='buttonin'><a href="/antrian" class='navfont'>Antrian</a></li>
             <li class='buttonin'><a href="/invoice" class='navfont'>Invoice</a></li>
+            <li class='buttonin'><a href="/about" class='navfont'>About</a></li>
         </ul>
 
         <ul class='button'>
