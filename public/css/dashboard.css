@@ -245,14 +245,7 @@ flex-grow: 0;
 .desl{
     width: 100%;
 }
-.desc1{
-    width: 30%;
-    height: auto;
 
-    flex: none;
-    order: 0;
-    flex-grow: 0;  
-}
 .desc2{
 width: 100%;
 display: flex;
@@ -431,3 +424,64 @@ flex-grow: 0;
       padding: 15px;
     }
   }
+
+ /* About Gambar */
+ .adesc{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 10px;
+    gap: 10px;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+    
+    background: #FFEAEA;    
+    flex: none;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+  .desc1{
+    width: 30%;
+    height: auto;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;  
+}
+.adesc2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    gap: 2em;
+    line-height: 30px;
+    }
+    
+.adesc2a{
+        width: 60%;    
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 39px;
+        text-align: justify;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        color: #000000; 
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+}
+
+.linkmap:hover{
+    color: black;
+ 
+}
+
+.linkmap{
+ text-decoration: none;
+ color: black;
+}
