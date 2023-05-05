@@ -17,6 +17,9 @@
                                     <p class="card-text">
                                         Grooming Adalah Segala Tindakan Yang Dilakukan Kepada Anabul (Anak Bulu) Kesayangan Kita, Kucing Ataupun Anjing, Untuk Menjaga Penampilan Dan Kesehatannya.
                                     </p>
+                                    @if($dataAntrian = DB::table('antrians')->select('id')->count() > 10)
+                                    <p>Perhatian Antrian hari ini sudah full apabila memesan sekarang akan otomatis </p>
+                                    @endif
                                     <form action="/order" method="POST">
                                         @csrf
                                         <div class="mb-3">

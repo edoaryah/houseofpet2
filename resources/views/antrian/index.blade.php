@@ -5,6 +5,7 @@
 <!-- {{-- nama : {{ Auth::user()->name }}
     id : {{ $id = Auth::user()->id }} --}} -->
 
+
 <div class="antrian">
   <section class="container">
     <table class="table">
@@ -21,9 +22,10 @@
         </tr>
 
       </thead>
+      <center><img src="/img/jampelayanan.png" style="padding-bottom: 1rem" alt=""></center>
       <form action="/antrian" method="POST">
         @csrf
-        <div class="form-group  col-sm-4">
+        <div class="form-group  col-sm-4">       
           <div class="input-group date">
             <label for="date" class="col-form-label">Pilih Hari : </label>
             <input type="date" class="form-control" id="date" name="date">
